@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "server":"ng s -o"
+    "server": "ng s -o"
   },
   "private": true,
   "dependencies": {
@@ -28,6 +28,7 @@
     "pdfmake": "^0.2.8",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "yarn": "^1.22.21",
     "zone.js": "~0.13.0"
   },
   "devDependencies": {
