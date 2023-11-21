@@ -3,22 +3,21 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CourseComponent } from './courses/course/course.component';
-import { ResumeInputComponent } from './resume-input/resume-input.component';
 import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormControl } from '@angular/forms';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    CourseComponent,
-    ResumeInputComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    
-FormsModule,
+    FormsModule,
+    ReactiveFormsModule,
+    FormControl
+
   ],
   providers: [],
   bootstrap: [AppComponent]

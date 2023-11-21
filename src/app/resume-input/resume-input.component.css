@@ -1,0 +1,28 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  border: 4px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-collapse: separate;
+}
+.containerLeft {
+  width: 480px;
+  height: 580px;
+  border: 1px solid black;
+  display: flex;
+}
+.containerRight {
+  width: 480px;
+  height: 580px;
+  border: 1px solid black;
+}
+.heading {
+  border: 1px solid red;
+  width: 180px;
+}
+.education {
+  border: 1px solid red;
+  width: 180px;
+}
